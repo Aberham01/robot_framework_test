@@ -9,7 +9,7 @@ ${browser}    chrome
 *** Test Cases ***
 #==========================================================================================================================================================================
 #Ausgaben
-#TC_001 Add Position by providing all the mandtory fiels on "Sachkosten"
+#TC_001 Add Position by providing all the mandatory fields on "Sachkosten"
 Test case 1 - TC_001
      Open Browser     https://proandi-easy:W53W8tIe@easy-stage.wirfoerdern.net/     ${browser}
      Set Browser Implicit Wait      5
@@ -42,7 +42,7 @@ Test case 1 - TC_001
      Wait Until Keyword Succeeds    30seconds    1seconds    Click Element    //span[text()='Speichern']
 #==========================================================================================================================================================================
 #Finanzierung
-#TC_004 Add Position by providing all the mandtory fields on "Eigenmittel"
+#TC_004 Add Position by providing all the mandatory fields on "Eigenmittel"
 Test case 4 - TC_004
      Wait Until Keyword Succeeds    30seconds    1seconds    Click Element    //button[@id='1016_add']/descendant::span[text()='Position hinzufügen']
      Wait Until Keyword Succeeds    30seconds    1seconds    Click Element    //span[@title='--- Bitte wählen Sie ---']
@@ -63,7 +63,7 @@ Test case 4 - TC_004
      Wait Until Keyword Succeeds    30seconds    1seconds    Click Element    //span[text()='Speichern']
 
 #==========================================================================================================================================================================
-#TC_008 Edit Position by providing all the mandtory fields "Eigenmittel"
+#TC_008 Edit Position by providing all the mandatory fields on "Eigenmittel"
 Test case 8 - TC_008
      # EDIT
      Reload Page
